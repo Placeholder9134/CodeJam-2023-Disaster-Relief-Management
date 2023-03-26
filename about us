@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Disaster Relief Management System </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Disaster Relief Management </h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Donate</a></li>
+          <li><a href="#">Volunteer</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Welcome to our organization</h2>
+        <p>We provide disaster relief services to communities affected by natural disasters such as earthquakes, floods, hurricanes, and wildfires. Our team of dedicated volunteers work tirelessly to provide aid to those in need.</p>
+        <button>Donate Now</button>
+      </section>
+      <section>
+        <h2>Recent News</h2>
+        <article>
+          <h3>Earthquake in Mexico</h3>
+          <p>A 7.1 magnitude earthquake struck Mexico City on Tuesday, causing widespread damage and leaving many people homeless. Our organization is on the ground providing assistance to those affected by the disaster.</p>
+          <a href="#">Read More</a>
+        </article>
+        <article>
+          <h3>Flooding in India</h3>
+          <p>Heavy monsoon rains have caused severe flooding in several states in India, affecting millions of people. Our volunteers are working with local authorities to provide food, shelter, and medical assistance to those in need.</p>
+          <a href="#">Read More</a>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Disaster Relief Organization</p>
+    </footer>
+  </body>
+</html>
