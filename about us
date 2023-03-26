@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disaster Relief Website</title>
+  </head>
+  <body>
+    <header>
+      <h1>Disaster Relief Website</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#volunteer">Volunteer</a></li>
+          <li><a href="#donate">Donate</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+      <img src="download.jpg"/>
+    </header>
+    <main>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>Our organization is dedicated to providing disaster relief and assistance to those affected by natural disasters. We have a team of dedicated volunteers who work tirelessly to provide aid to those in need.</p>
+      </section>
+      <section id="services">
+        <h2>Services</h2>
+        <ul>
+          <li>Emergency food and water supplies</li>
+          <li>Temporary shelter and housing assistance</li>
+          <li>Medical and mental health services</li>
+          <li>Cleanup and debris removal</li>
+          <li>Assistance with insurance claims and other paperwork</li>
+        </ul>
+      </section>
+      <section id="volunteer">
+        <h2>Volunteer</h2>
+        <p>We are always looking for volunteers to join our team and help with disaster relief efforts. If you are interested in volunteering, please fill out the form on our website and we will get back to you as soon as possible.</p>
+        <a href="#contact">Contact Us</a>
+      </section>
+      <section id="donate">
+        <h2>Donate</h2>
+        <p>Your donations help us provide critical support to those affected by natural disasters. Please consider making a donation today.</p>
+        <a href="https://example.com/donate">Donate Now</a>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to get involved with our organization, please fill out the form below and we will get back to you as soon as possible.</p>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea><br>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Disaster Relief Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
